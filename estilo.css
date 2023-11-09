@@ -1,0 +1,181 @@
+
+.sk1{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: fixed;
+    top: 0;
+    width: 99%;
+    background-color: rgba( 0, 0, 0.34, 0.7); 
+}
+.sb1 {
+    display: inline-block;
+    border: 2px solid #39a900;
+    color: white;
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    margin-right: 10px;
+}
+.sb1:hover{
+    color: black;
+    background-color: #39a900;
+    border-color: black;
+}
+.sb2{
+    display: grid;
+    text-align: center;
+    background-color: #39a900;
+    border: 2px solid;
+    border-color: black;
+}
+.sk2{
+    width: 99%;
+    height: 400px;
+    margin: 5px;
+    border-radius: 15px;
+}
+.sk3{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.sk4{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.j1{
+    text-align: right;
+    margin-top: 25px
+}
+.car1{
+    background-color: #39a900;
+    text-align: center;
+    box-shadow: rgb(0, 0, 0.35) 1px 1px 5px;
+    border-radius: 15px;
+    margin: 5px;
+
+}
+.car2{
+    text-align: center;
+    box-shadow: #39a900 2px 2px 20px 5px;
+    border-radius: 15px;
+    margin: 5px 50px;
+}
+
+
+.foto1{
+    
+    width: 150px;
+    height: 180px;
+    margin: 15px ;
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+.foto1:hover{
+    transform: scale(1.1);
+}
+.foto2{
+    width: 450px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.imagen{
+    border-radius: 15px;
+    width: 250px;
+    height: 200px;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+    
+}
+.imagen:hover{
+    transform: scale(1.1);
+}
+.cr1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 25px;
+    
+}
+.cr01{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 25px;
+    
+}
+.cr2{
+    text-align: center;
+    box-shadow: rgb(0, 0, 0.35) 1px 1px 5px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: #39a900;
+}
+.foto3{
+    
+    width: 80%;
+    height: 85%;
+    margin: 15px ;
+    border-radius: 15px;
+}
+.sk5{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+
+}
+.car01{
+    background-color: #39a900;
+    text-align: center;
+    box-shadow: rgb(0, 0, 0.35) 1px 1px 5px;
+    border-radius: 15px;
+    margin: 5px;
+    
+
+}
+.car3{
+    text-align: center;
+    box-shadow: #39a900 2px 2px 20px 5px;
+    border-radius: 15px;
+    margin: 5px 15px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.parrafo{ 
+    font-size: 20px;
+    font-family: 'arial';
+    box-sizing: border-box;
+    color: #fff;
+    text-shadow: 0 0 15px #fff,
+    0 0 25px #fff,
+    0 0 50px #fff,
+    0 0 100px #fff;
+
+}
+.parrafo1{
+    margin: 1px;
+    font-size: 25px;
+    font-family: 'arial';
+    box-sizing: border-box;
+    color: black;
+    text-shadow: 0 0 15px #39a900,
+    0 0 25px #39a900,
+    0 0 50px #39a900,
+    0 0 100px #39a900;
+
+}
+@media only screen and (max-width: 500px) {
+    .sk3{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .cr1{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 25px;
+        
+    }
+}
